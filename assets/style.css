@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    padding: 30px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+input {
+    font-size: 20px;
+    border: 2px solid cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+    color: darkblue;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: darkblue;
+}
+
+.error__input {
+    border: 1px solid salmon;
+}
+
+.error {
+    margin-top: -15px;
+}
